@@ -1,0 +1,33 @@
+sudo apt-get install g++
+sudo apt-get install make
+install_nodejs.sh
+sudo apt-get update
+sudo apt-get install git
+
+sudo npm install express -g
+sudo npm install gfms -g
+npm set init.author.name "Your Name"
+npm set init.author.email "you@example.com"
+npm set init.author.url "http://yourblog.com"
+npm adduser
+sudo npm install -g pakmanager
+sudo apt-get install mongodb-clients
+
+
+#git
+git config --global core.editor vim
+sudo npm install bower -g
+
+# for jekyll & jekyllbootstrap
+sudo apt-get install ruby
+sudo apt-get install ruby-dev
+gem install jekyll
+gem install rake
+sudo gem install redcarpet -v '3.1.2'
+sudo gem install nokogiri
+sudo gem install bundle 
+
+# wintersmith
+sudo npm install wintersmith -g
+
+sudo npm install http-server -g

@@ -1,0 +1,4 @@
+http://dev.openlayers.org/examples/osm.html
+%s/<img/\r<img/g
+%s/.\+left: \(.\+\)px.\+top: \(.\+\)px; w.\+org\/\(\d\+\)\/\(\d\+\)\/\(\d\+\).\+/{left:\1, top:\2, Z:\3, X:\4, Y:\5},/
+%s/.\+org\/\(\d\+\)\/\(\d\+\)\/\(\d\+\).\+left: \(.\+\)px.\+top: \(.\+\)px; w.\+/{left:\4, top:\5, Z:\1, X:\2, Y:\3},/
