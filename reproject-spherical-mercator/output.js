@@ -649,7 +649,13 @@ module.exports ={
             ]
           ]
         ]
-      }
+      },
+      "bbox": [
+        10,
+        10,
+        41,
+        40
+      ]
     },
     "output": {
       "type": "Feature",
@@ -683,7 +689,13 @@ module.exports ={
             ]
           ]
         ]
-      }
+      },
+      "bbox": [
+        1113194.9079327357,
+        1118889.9748579597,
+        4564099.122524217,
+        4865942.279503176
+      ]
     }
   },
   "FeatureCollection": {
@@ -696,7 +708,7 @@ module.exports ={
             "type": "Point",
             "coordinates": [
               102,
-              0.5
+              0.6
             ]
           },
           "properties": {
@@ -727,8 +739,8 @@ module.exports ={
             ]
           },
           "properties": {
-            "prop0": "value0",
-            "prop1": 0
+            "prop1": 0,
+            "prop0": "value0"
           }
         },
         {
@@ -761,12 +773,18 @@ module.exports ={
             ]
           },
           "properties": {
-            "prop0": "value0",
             "prop1": {
               "this": "that"
-            }
+            },
+            "prop0": "value0"
           }
         }
+      ],
+      "bbox": [
+        100,
+        0,
+        105,
+        1
       ]
     },
     "output": {
@@ -778,7 +796,7 @@ module.exports ={
             "type": "Point",
             "coordinates": [
               11354588.060913904,
-              55660.45186542052
+              66792.91526425029
             ]
           },
           "properties": {
@@ -809,8 +827,8 @@ module.exports ={
             ]
           },
           "properties": {
-            "prop0": "value0",
-            "prop1": 0
+            "prop1": 0,
+            "prop0": "value0"
           }
         },
         {
@@ -843,12 +861,18 @@ module.exports ={
             ]
           },
           "properties": {
-            "prop0": "value0",
             "prop1": {
               "this": "that"
-            }
+            },
+            "prop0": "value0"
           }
         }
+      ],
+      "bbox": [
+        11131949.079327356,
+        -7.081154551613622e-10,
+        11688546.533293726,
+        111325.14286638486
       ]
     }
   }

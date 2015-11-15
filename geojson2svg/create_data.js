@@ -1,6 +1,13 @@
-var extent = {'left':-180,'bottom':-90,'right':180,'top':90};
-var size = {width: 200, height: 100};
+//var extent = {'left':-180,'bottom':-90,'right':180,'top':90};
+//var size = {width: 200, height: 100};
 //console.log(process.argv[2] + 5);
+var extent =    {
+      left: -20037508.342789244,
+      right: 20037508.342789244,
+      bottom: -20037508.342789244,
+      top: 20037508.342789244
+    };
+var size = {width: 256, height: 256};  
 var xres = (extent.right - extent.left)/size.width;
 var yres = (extent.top - extent.bottom)/size.height;
 var res = Math.max(xres,yres);

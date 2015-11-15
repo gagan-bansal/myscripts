@@ -31,3 +31,5 @@ sudo gem install bundle
 sudo npm install wintersmith -g
 
 sudo npm install http-server -g
+
+npm install -g github-changes
