@@ -48,7 +48,11 @@ repo=$projjs'.git'
 git remote add origin https://github.com/$user/$repo
 
 echo "Installing npm modules .."
-npm install
+npm install browserify --save-dev
+npm install chai --save-dev
+npm install exorcist --save-dev
+npm install mocha --save-dev
+npm install uglify-js --save-dev
 
 echo "Created $projjs and initiated empty repo on github."
 cd -
